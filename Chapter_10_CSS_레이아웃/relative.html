@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			#parent {
+				width: 500px;
+				height: 300px;
+				border:solid 5px #000000;
+				margin: 50px 0 0 50px;
+			}
+			#box1, #box2, #box3 {
+				width: 80px;
+				height: 80px;
+			}
+			#box1 {background-color:#ff0000;}
+			#box2 {
+				background-color:#00ff00;
+				/* relative 속성은 원래 박스가 있던 위치를 기준으로 이동*/
+				/* 해당 박스에만 적용되며 나머지 박스는 적용되지 않는다. */
+				position:relative;
+				top:20px;
+				left:30px;
+			}
+			#box3 {background-color:#ffff00;}
+		</style>
+	</head>
+	<body>
+		<div id="parent">
+		    <div id="box1">A</div>
+		    <div id="box2">B</div>
+		    <div id="box3">C</div>
+	  	</div>
+	</body>
+</html>
