@@ -1,0 +1,54 @@
+<!-- HTML5의 레이아웃-->
+<!-- header, footer, article, section, aside, nav, main-->
+
+
+<!-- 유동형 레이아웃 2단: 웹 브라우저 창의 크기를 조절하면 맞추어 변한다.-->
+<!-- 너비를 지정할 때 width에 퍼센트(%)나 em단위를 사용한다.-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<style>
+		* {
+		    margin:0;
+		    padding:0;
+		}
+		header {
+		    height:80px;
+		    background-color:#cccccc;
+		}
+		aside {
+			width: 25%;
+			height: 300px;
+			float: left;
+			background-color: #ffff00;
+		}
+		main {
+			width: 75%;
+			height: 300px;
+			float: left;
+			background-color: #00ff00;
+		}
+		footer {
+			height: 80px;
+			clear: both;
+			background-color: #cccccc;
+		}
+
+	</style>
+		<body>
+		  <header>
+		    헤더 콘텐츠
+		  </header>
+		  <aside>
+		    좌측 콘텐츠 
+		  </aside>
+		  <main>
+		    메인 콘텐츠 
+		  </main>
+		  <footer>
+		    푸터 콘텐츠
+		  </footer>
+	</body>
+</html>

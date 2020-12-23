@@ -1,0 +1,78 @@
+<!-- HTML5의 레이아웃-->
+<!-- header, footer, article, section, aside, nav, main-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<style>
+		/* 로고나 메뉴 등 상단 */
+		header{
+			border:solid 2px #ff0000;
+			width: 800px;
+			height: 60px;
+			margin: 2px;
+		}
+		/* 메뉴, 배너 등 콘텐츠 나타내는 측면 */
+		aside {
+			border:solid 2px #ff0000;
+			width: 175px;
+			height: 398px;
+			float: left;
+			padding: 2px;
+		}
+		/* 메뉴 */
+		nav {
+			border:solid 2px #0000ff;
+			height: 150px;
+			margin-bottom: 50px;
+			margin:2px;
+		}
+		/* 메인 콘텐츠 웬만하면 한 번만 사용하고 자식 태그로 사용하지 않는 것을 권고 */
+		main {
+			border:solid 2px #ff0000;
+			width: 618px;
+			height: 400px;
+			float: left;
+			margin: 2px;
+		}
+		/* 구역 */
+		section {
+			border:solid 2px #00ff00;
+			width: 500px;
+			height:150px;
+			margin: 2px;
+
+		}
+		/* 저작권, 주소, 연락처, 사이트맵 등의 하단 */
+		footer {
+			border:solid 2px #ff0000;
+			width: 800px;
+			height: 90px;
+			margin: 2px;
+		}
+		.clear {
+			clear:both;
+		}
+	</style>
+	<body>
+		<header>상단 헤더</header>
+		<aside>
+			좌측
+			<nav>메뉴</nav>
+		</aside>
+		<main>
+			메인 콘텐츠
+			<section>
+				콘텐츠1
+			</section>
+			<section>
+				콘텐츠2
+			</section>
+		</main>
+
+		<div class="clear"></div>
+		<footer>하단 푸터</footer>
+	</body>
+</html>
