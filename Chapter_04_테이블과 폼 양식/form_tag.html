@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form>
+			<!-- text 폼 양식 -->
+			이름 : <input type="text" name="name"><br>
+			나이 : <input type="text" name="age"><br>
+
+			<!-- password 폼 양식 -->
+			비밀번호 : <input type="password" name="pw"><br>
+
+			<!-- 라디오 버튼 양식 -->
+			<!-- checked: 해당 버튼을 미리 선택되도록 한다 -->
+			개인 정보 : <input type="radio" name="info" checked>공개
+			<input type="radio" name="info">비공개<br>
+			취미 : <input type="checkbox" name="hobby1" checked>등산
+			<input type="checkbox" name="hobby2">독서
+			<input type="checkbox" name="hobby3">영화감상
+			<input type="checkbox" name="hobby4">음악감상<br>
+
+			<!-- 선택 박스 양식 -->
+			이메일 : <input type="text" name="email"> @ 
+			<select>
+				<option>선택</option>
+				<option>naver.com</option>
+				<option>google.com</option>
+				<option>직접입력</option>
+			</select><br>
+			
+			<!-- 다중 입력 창 양식 -->
+			자기소개 :<br><textarea rows="5" cols="50"></textarea><br>
+
+			<!-- 3가지 형태의 버튼 만들기 -->
+			<button type="button">검색</button>
+			<button type="submit">확인</button>
+			<button type="reset">다시쓰기</button><br><br>
+
+			<!-- 파일 폼 양식 -->
+			파일 첨부 : <input type="file" name="f">* 2MB까지 가능<br><br>
+
+			<!-- HTML5에 추가된 폼 양식 -->
+			<input type="color"><br>
+			<input type="datetime-local"><br>
+			<input type="month"><br>
+			<input type="number"><br>
+			<input type="range"><br>
+			<input type="time"><br>
+			<input type="week"><br>
+		</form>
+	</body>
+</html>
