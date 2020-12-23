@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			div {
+				width: 220px;
+				height: 220px;
+				background-color: blue;
+				color: white;
+			}
+			.container {
+				background-color: skyblue;
+				border: solid 1px black;
+			}
+			.transformed {
+				/* perspective: 원근값, 클수록 멀게 보인다.*/
+				transform: perspective(500px) rotateY(60deg) rotateX(0deg);
+			}
+			/*
+			translate3d(x, y, z), translateZ(z)
+			rotated(x, y, z), rotateZ(z)
+			scale3d(x, y, z), scaleZ(1.4)
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="transformed">css에는 3차원 변환 효과를 줄 수 있는 여러 가지 속성들과 메서드를 제공한다. 가장 대표적인 3차원 변환은 박스를 약간 옆으로 회전시키는 것이다. 3차원 변환은 이전의 구버전의 브라우저에서는 동작하지 않으며, 인터네 익스플로러에서도 어느정도 지원한다.</div>
+		</div>
+	</body>
+</html>
