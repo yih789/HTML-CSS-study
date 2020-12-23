@@ -1,2 +1,2 @@
 # HTML-CSS-study
-html과 css 실습 내용 저장
+html과 css의 주요내용 실습
